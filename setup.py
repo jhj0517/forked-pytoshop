@@ -5,12 +5,6 @@
 from setuptools import setup
 from setuptools.extension import Extension
 
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
 requirements = [
     'cython==0.28.5',
     'numpy',
@@ -38,7 +32,7 @@ setup(
     name='pytoshop',
     version='1.1.0',
     description="A Python-based library to write Photoshop PSD files",
-    long_description=readme + '\n\n' + history,
+    long_description="",
     author="Michael Droettboom",
     author_email='mdboom@gmail.com',
     url='https://github.com/mdboom/pytoshop',
