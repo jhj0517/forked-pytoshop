@@ -23,7 +23,7 @@ from . import util
 
 
 try:
-    import packbits  # type: ignore
+    from . import packbits  # type: ignore
 except ImportError:
     pass
 
